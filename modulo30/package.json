@@ -1,0 +1,17 @@
+{
+  "name": "modulo30",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4",
+    "sucrase": "^3.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

@@ -1,0 +1,12 @@
+o sucrase do nodemon, faz a utilização dos IMPORTES e EXPORTES DEFAULT do Node.
+
+{
+    "execMap":{
+        "js":"node -r sucrase/register"
+    }
+}
+
+criar um arquivo chamado nodemon.json e adicionar a função acima, em todos arquivos "JS", ele irá adicionar a informação acima.
+
+mongodb+srv://Luiz:luiz123@devhouse.ixx13.mongodb.net/test
+yarn add mongoose

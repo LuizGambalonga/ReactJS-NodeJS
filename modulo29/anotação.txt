@@ -1,0 +1,18 @@
+modulo 29 anotações.
+
+NPM/YARN (são gerenciador de pacotes).
+
+Arquitetura do NODEJS
+- event loop 
+. Call stack (Pilha de eventos).
+- Single-Thread (apenas consome um unico nucleo do processamento).
+- Non-Blocking i/o pode retornar a requisição para o front, e não perde a conexão.
+
+API REST
+- Requisição e Reposta
+- Estrutura de Dados JSON ou XML
+- Rotas (GET,POST,PUT,DELETE)
+----------------
+yarn add init
+yarn add express
+yarn add nodemon -D
